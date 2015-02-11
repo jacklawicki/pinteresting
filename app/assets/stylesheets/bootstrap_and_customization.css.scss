@@ -1,7 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Asap);
+
 $body-bg: #ecf0f1;
+$font-family-sans-serif: 'Asap', 'Arial';
+$navbar-height: 45px;
 $navbar-default-bg:  #2c3e50;
-$navbar-default-link-color: #e54a3a;
+$navbar-default-link-color: white;
 $brand-primary: #e54a3a;
 $jumbotron-bg: white;
 $jumbotron-color: #2c3e50;
+
+
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+.navbar-brand {
+	font-weight: bold;
+}

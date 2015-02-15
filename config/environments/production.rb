@@ -83,9 +83,9 @@ Rails.application.configure do
 config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
-    :bucket => ENV['learntoclub'],
-    :access_key_id => ENV['AKIAJ5KQF4H2U3LWVRJQ'],
-    :secret_access_key => ENV['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']
+    :bucket => 'learntoclub',
+    :access_key_id =>'AKIAJ5KQF4H2U3LWVRJQ',
+    :secret_access_key => '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'
   }
 }
 end

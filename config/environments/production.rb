@@ -83,9 +83,9 @@ Rails.application.configure do
 config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
-    :bucket => 'learntoclub',
-    :access_key_id =>'AKIAJ5KQF4H2U3LWVRJQ',
-    :secret_access_key => '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'
+    :bucket => 'pinterestingror',
+    :access_key_id =>'AKIAIXNP6ANSVDHNBBMQ',
+    :secret_access_key => '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'
   }
 }
 end

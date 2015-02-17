@@ -9,7 +9,7 @@ $brand-primary: #e54a3a;
 $jumbotron-bg: white;
 $jumbotron-color: #2c3e50;
 
-
+$icon-font-path: 'bootstrap/';
 @import 'bootstrap';
 
 .center {
@@ -17,4 +17,10 @@ $jumbotron-color: #2c3e50;
 }
 .navbar-brand {
 	font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }

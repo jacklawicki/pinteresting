@@ -84,8 +84,7 @@ config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
     :bucket => 'pinterestingror',
-    :access_key_id =>'AKIAJ4TBDQU5CBIJ2LQA',
-    :secret_access_key => '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'
+    
   }
 }
 end

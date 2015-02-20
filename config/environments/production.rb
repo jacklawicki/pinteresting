@@ -84,8 +84,8 @@ config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
     :bucket => 'pinterestingror',
-    ENV['AWS_SECRET']
-    ENV['AWS_ACCESS']
+   AWS_SECRET=> ENV['AWS_SECRET']
+AWS_ACCESS=> ENV['AWS_ACCESS']
   }
 }
 end
